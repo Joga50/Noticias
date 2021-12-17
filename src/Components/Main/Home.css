@@ -1,0 +1,65 @@
+/* ---------------header section---------------- */
+.header {
+  font-size: 45px;
+  padding-top: 2%;
+  margin: auto;
+}
+@media screen and (max-width: 1000px) {
+  .header {
+    color: royalblue;
+    font-size: 30px;
+  }
+}
+.headers {
+  background-color: royalblue;
+}
+.header2 {
+  padding-bottom: 5%;
+}
+.inputDiv {
+  padding-left: 69%;
+  padding-bottom: 1%;
+}
+/* ------------------------------Global container--------------------------- */
+.contentContainer {
+  display: flex;
+  margin: auto;
+}
+
+/* ----------------body section(countries)------------ */
+.countriesContainer {
+  font-size: 30px;
+  background-color: royalblue;
+  padding-right: 1%;
+}
+h4:hover {
+  color: rgb(255, 255, 255);
+}
+h4 {
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.countryImg {
+  border-radius: 50%;
+  width: 75px;
+  padding-right: 1%;
+  padding-left: 1%;
+  margin-top: 2%;
+}
+
+/* --------------------------Home container---------------------------- */
+.homeContainer2 {
+  margin-left: 4%;
+  margin-right: 4%;
+  padding-left: 4%;
+  padding-right: 6%;
+  padding-top: 3%;
+  background-color: white;
+}
+.welcomeMessage {
+  text-align: justify;
+}
