@@ -14,7 +14,7 @@ function Portugal(props) {
       .get(API)
       .then((data) => setData(data.data.articles))
       .catch((err) => console.log(err));
-  }, []);
+  }, [setData]);
   return (
     <div>
       Portugal
