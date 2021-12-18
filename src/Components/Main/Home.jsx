@@ -6,6 +6,23 @@ function Home(props) {
   return (
     <div>
       <div className="headers">
+        <div className="accountManagement">
+          <Link to="/signIn">
+            <h5>
+              <nav>Sign in</nav>
+            </h5>
+          </Link>
+          <div className="verticalSeparator"></div>
+          <Link to="/register">
+            <h5>
+              <nav>Register</nav>
+            </h5>
+          </Link>
+        </div>
+        <div className="globoIcon">
+          <i class="fas fa-globe-americas"></i>
+          <h2 className="homeTittle">GloboNews</h2>
+        </div>
         <h1 className="header">Welcome to the latest world news</h1>
         <hr></hr>
         <h1 className="header2">Check the country you want to know about</h1>
@@ -15,6 +32,14 @@ function Home(props) {
         </div>
       </div>
       <div className="contentContainer">
+        <div className="homeContainer1">
+          <h2>Check our content</h2>
+          <ul>
+            <li>What is this page about</li>
+            <li>Why we choose these countries</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
         <div className="countriesContainer">
           <ul>
             <Link to="/USA">
@@ -27,6 +52,7 @@ function Home(props) {
                 <nav>U.S.A</nav>
               </h4>
             </Link>
+            <hr></hr>
             <Link to="/Mexico">
               <h4>
                 <img
@@ -37,6 +63,7 @@ function Home(props) {
                 <nav>Mexico</nav>
               </h4>
             </Link>
+            <hr></hr>
             <Link to="/France">
               <h4>
                 <img
@@ -47,6 +74,7 @@ function Home(props) {
                 <nav>France</nav>
               </h4>
             </Link>
+            <hr></hr>
             <Link to="/Portugal">
               <h4>
                 <img
@@ -57,6 +85,7 @@ function Home(props) {
                 <nav>Portugal</nav>
               </h4>
             </Link>
+            <hr></hr>
             <Link to="/Colombia">
               <h4>
                 <nav>
@@ -77,8 +106,31 @@ function Home(props) {
             the latsest news about some of the most importart countries of the
             world
           </h3>
+          <img
+            className="Bodyimg"
+            src="./Images/newspaper.jpg"
+            alt="colombiaFlag"
+          ></img>
         </div>
       </div>
+      <footer className="footer">
+        <img
+          src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+          alt="twitter"
+        />
+        <img
+          src="https://img.icons8.com/fluency/48/000000/facebook.png"
+          alt="facebook"
+        />
+        <img
+          src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+          alt="instagram"
+        />
+        <img
+          src="https://img.icons8.com/color/48/000000/linkedin.png"
+          alt="linkedin"
+        />
+      </footer>
     </div>
   );
 }

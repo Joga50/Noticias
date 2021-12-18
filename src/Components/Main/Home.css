@@ -1,17 +1,52 @@
+/* ----------------------Account------------------------ */
+.accountManagement {
+  display: flex;
+  padding-left: 80%;
+}
+h5:hover {
+  color: rgb(255, 255, 255);
+}
+.verticalSeparator {
+  padding-top: 2%;
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 15px;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 6%;
+}
+
 /* ---------------header section---------------- */
+.globoIcon {
+  display: flex;
+
+  margin-left: 6%;
+  padding-bottom: 1%;
+  font-size: 25px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 77%;
+  padding-top: 1%;
+  padding-left: 1%;
+  border-radius: 3%;
+}
+.homeTittle {
+  font-size: 20px;
+}
 .header {
   font-size: 45px;
   padding-top: 2%;
   margin: auto;
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .header {
-    color: royalblue;
+    color: rgb(144, 9, 223);
     font-size: 30px;
+  }
+  .verticalSeparator {
+    padding-top: 12%;
   }
 }
 .headers {
-  background-color: royalblue;
+  background-color: rgb(144, 9, 223);
 }
 .header2 {
   padding-bottom: 5%;
@@ -28,12 +63,13 @@
 
 /* ----------------body section(countries)------------ */
 .countriesContainer {
-  font-size: 30px;
-  background-color: royalblue;
+  font-size: 20px;
+  background-color: rgba(235, 235, 236, 0.938);
   padding-right: 1%;
+  margin-left: 2%;
 }
 h4:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(212, 131, 9);
 }
 h4 {
   padding-bottom: 1%;
@@ -52,6 +88,9 @@ a {
 }
 
 /* --------------------------Home container---------------------------- */
+.homeContainer1 {
+  margin-left: 2%;
+}
 .homeContainer2 {
   margin-left: 4%;
   margin-right: 4%;
@@ -62,4 +101,11 @@ a {
 }
 .welcomeMessage {
   text-align: justify;
+}
+li {
+  text-align: left;
+}
+/* --------------------------------footer-------------------------------------- */
+.footer {
+  background-color: rgb(144, 9, 223);
 }

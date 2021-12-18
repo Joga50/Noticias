@@ -3,6 +3,9 @@ import React, { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 // ------------------Landing page--------------------------
 import Home from "./Components/Main/Home";
+// -----------------------Account management-------------------
+import Register from "./Components/AccountManagement/Register";
+import SignIn from "./Components/AccountManagement/SignIn";
 // ------------------Countries--------------------------
 import Usa from "./Components/Countries/Usa";
 import Portugal from "./Components/Countries/Portugal";
@@ -19,7 +22,9 @@ function App() {
       <Routes>
         {/* // ------------------Landing page-------------------------- */}
         <Route path="/" element={<Home data={data} setData={setData} />} />
-
+        {/* -----------------------Account management------------------- */}
+        <Route path="/signIn" element={<SignIn />} />
+        <Route path="/register" element={<Register />} />
         {/* ----------------------------------Countries--------------------------  */}
         <Route path="USA" element={<Usa data={data} setData={setData} />} />
         <Route
