@@ -101,36 +101,123 @@ function Home(props) {
           </ul>
         </div>
         <div className="homeContainer2">
-          <h3 className="welcomeMessage">
+          <h2>GloboNews</h2>
+          <p className="welcomeMessage">
             Hello!, welcome to the world greatsest newspaper. Here you can find
             the latsest news about some of the most importart countries of the
-            world
-          </h3>
+            world.
+          </p>
+          <hr></hr>
           <img
             className="Bodyimg"
             src="./Images/newspaper.jpg"
             alt="colombiaFlag"
           ></img>
+          <hr></hr>
+          <div className="firstParagraph">
+            <h2>What is this website about</h2>
+            <p>
+              This website is about the latest and relevant news of some of the
+              most important countries around the globe, here you will find an
+              enormous quantity of articles about many topics, so preapre to
+              enjoy and get information about your favorite country on the list,
+              sit down relax and of course, READ!!!
+            </p>
+            <img
+              className="bodyImg2"
+              src="./Images/newspaper2.jpg"
+              alt="colombiaFlag"
+            ></img>
+            <hr></hr>
+            <h2>Why we chose these countries</h2>
+            <p>
+              We made a careful and interesting research about which were the
+              more important and influent countries on each continent and we
+              found a lot of nice and cool countries to talk about, but we
+              decided to choose the five more attractive based on stadistics
+              polls and research madede thru the net. ;
+            </p>
+            <img
+              className="bodyImg3"
+              src="./Images/contactus.jpg"
+              alt="contactUs"
+            />
+            <hr></hr>
+            <h2>Contact us</h2>
+            <p>
+              We will be more than happy if you want to get in touch with us,
+              please if you have any question or want to be part of our team, we
+              will be more than glad to help you answering all your requests.
+              Please contact us
+            </p>
+          </div>
         </div>
       </div>
       <footer className="footer">
-        <img
-          src="https://img.icons8.com/color/48/000000/twitter--v1.png"
-          alt="twitter"
-        />
-        <img
-          src="https://img.icons8.com/fluency/48/000000/facebook.png"
-          alt="facebook"
-        />
-        <img
-          src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
-          alt="instagram"
-        />
-        <img
-          src="https://img.icons8.com/color/48/000000/linkedin.png"
-          alt="linkedin"
-        />
+        <div className="footerDiv1">
+          <img
+            className="iconImg"
+            src="./Images/globoicon.jpg"
+            alt="globoicon"
+          />
+          <p>
+            This website is runned by a well trained team of professional
+            researchers, oriented in suggest the best articles to all of our
+            lectors. Provided with tons of real time news and well trusted
+            sources all around the globe.
+          </p>
+        </div>
+        <div className="footerDiv2">
+          <h2>This might interest you</h2>
+          <ul>
+            <li>About us</li>
+            <li>Privacy policy</li>
+            <li>FAQ</li>
+            <li>Contact us</li>
+          </ul>
+        </div>
+        <div className="footerDiv3">
+          <h2>Follow us</h2>
+          <img
+            src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+            alt="twitter"
+          />
+          <img
+            src="https://img.icons8.com/fluency/48/000000/facebook.png"
+            alt="facebook"
+          />
+          <img
+            src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+            alt="instagram"
+          />
+          <img
+            src="https://img.icons8.com/color/48/000000/linkedin.png"
+            alt="linkedin"
+          />
+          {/* <a
+            href="https://www.linkedin.com/feed/"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin-in social-icon fa-3x"></i>
+          </a>
+          <a
+            href="https://github.com/Joga50"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github social-icon fa-3x"></i>
+          </a>
+          <a
+            href="mailto: jose.gabriel.a@hotmail.com"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="far fa-envelope social-icon fa-3x"></i>
+          </a> */}
+        </div>
       </footer>
+      <div className="rights">GloboNews 2022. All rights reserved.</div>
     </div>
   );
 }

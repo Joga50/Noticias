@@ -1,7 +1,32 @@
 import React from "react";
+import "./Account.css";
+import { Link } from "react-router-dom";
 
 function SignIn(props) {
-  return <div>sign in</div>;
+  return (
+    <div className="signIn">
+      <div className="homeIcon">
+        <Link to="/">
+          <img
+            className="iconImg"
+            src="./Images/globoicon.jpg"
+            alt="globoicon"
+          />
+        </Link>
+      </div>
+      <h2>Sign in</h2>
+      <div className="signInBox">
+        <h6>E-mail</h6>
+        <input placeholder="username" id="input" type="email" />
+        <h6>Password</h6>
+        <input placeholder="password" id="input" type="password" />
+
+        <div className="loginDiv">
+          <button>Login</button>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default SignIn;
