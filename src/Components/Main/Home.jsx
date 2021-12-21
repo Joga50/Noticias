@@ -178,43 +178,30 @@ function Home(props) {
         </div>
         <div className="footerDiv3">
           <h2>Follow us</h2>
-          <img
-            src="https://img.icons8.com/color/48/000000/twitter--v1.png"
-            alt="twitter"
-          />
-          <img
-            src="https://img.icons8.com/fluency/48/000000/facebook.png"
-            alt="facebook"
-          />
-          <img
-            src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
-            alt="instagram"
-          />
-          <img
-            src="https://img.icons8.com/color/48/000000/linkedin.png"
-            alt="linkedin"
-          />
-          {/* <a
-            href="https://www.linkedin.com/feed/"
-            target="_blank"
-            class="social-link"
-          >
-            <i class="fab fa-linkedin-in social-icon fa-3x"></i>
+          <a href="https://www.twitter.com">
+            <img
+              src="https://img.icons8.com/color/48/000000/twitter--v1.png"
+              alt="twitter"
+            ></img>
           </a>
-          <a
-            href="https://github.com/Joga50"
-            target="_blank"
-            class="social-link"
-          >
-            <i class="fab fa-github social-icon fa-3x"></i>
+          <a href="https://facebook.com">
+            <img
+              src="https://img.icons8.com/fluency/48/000000/facebook.png"
+              alt="facebook"
+            />
           </a>
-          <a
-            href="mailto: jose.gabriel.a@hotmail.com"
-            target="_blank"
-            class="social-link"
-          >
-            <i class="far fa-envelope social-icon fa-3x"></i>
-          </a> */}
+          <a href="https://instagram.com">
+            <img
+              src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
+              alt="instagram"
+            />
+          </a>
+          <a href="https://linkedin.com">
+            <img
+              src="https://img.icons8.com/color/48/000000/linkedin.png"
+              alt="linkedin"
+            />
+          </a>
         </div>
       </footer>
       <div className="rights">GloboNews 2022. All rights reserved.</div>
