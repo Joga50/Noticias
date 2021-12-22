@@ -16,11 +16,27 @@ function Usa(props) {
       .catch((err) => console.log(err));
   }, [setData]);
   return (
-    <div>
-      usa
-      <Link to="/">
-        <button>Home</button>
-      </Link>
+    <div className="usaDiv">
+      <div id="navBarDiv">
+        <Link to="/">
+          <div className="arrowIcon">
+            <i id="arrow" class="fas fa-arrow-left"></i>
+          </div>
+        </Link>
+        <div id="homeIcon">
+          <Link to="/">
+            <img
+              className="iconImg"
+              src="./Images/globoicon.jpg"
+              alt="globoicon"
+            />
+          </Link>
+        </div>
+        <hr></hr>
+        <div className="tittleDiv">
+          <h1 className="countryHeader">Check out the best news from Usa</h1>
+        </div>
+      </div>
       <div>
         {data.map((articulo) => (
           <Articulo data={articulo} />

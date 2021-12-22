@@ -17,10 +17,28 @@ function Portugal(props) {
   }, [setData]);
   return (
     <div>
-      Portugal
-      <Link to="/">
-        <button>Home</button>
-      </Link>
+      <div id="navBarDiv">
+        <div id="homeIcon">
+          <Link to="/">
+            <div className="arrowIcon">
+              <i id="arrow" class="fas fa-arrow-left"></i>
+            </div>
+          </Link>
+          <Link to="/">
+            <img
+              className="iconImg"
+              src="./Images/globoicon.jpg"
+              alt="globoicon"
+            />
+          </Link>
+        </div>
+        <hr></hr>
+        <div className="tittleDiv">
+          <h1 className="countryHeader">
+            Check out the best news from Portugal
+          </h1>
+        </div>
+      </div>
       <div>
         {data.map((articulo) => (
           <Articulo data={articulo} />

@@ -1,0 +1,21 @@
+.usaDiv {
+  /* background-color: rgb(144, 9, 223); */
+}
+#navBarDiv {
+  background-color: rgb(144, 9, 223);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#homeIcon {
+  padding-right: 550px;
+}
+
+.arrowIcon {
+  margin-bottom: 10%;
+  padding-top: 0%;
+  padding-right: 85%;
+  margin-top: 0%;
+}
+#arrow:hover {
+  color: aliceblue;
+}

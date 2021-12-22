@@ -103,6 +103,28 @@ a {
 li {
   text-align: left;
 }
+/* -------------------------------------carta-------------------------------------- */
+.carta {
+  background-color: rgb(255, 255, 255);
+  width: 500px;
+  text-align: justify;
+  margin: auto;
+  padding: 6%;
+}
+.img {
+  width: 500px;
+}
+.descriptionCard {
+  margin-left: 0px;
+}
+.writtenBy {
+  margin-left: 0px;
+  padding-right: 10px;
+  font-weight: lighter;
+}
+.content {
+  font-weight: lighter;
+}
 /* --------------------------------footer-------------------------------------- */
 .footer {
   background-color: rgb(144, 9, 223);

@@ -7,6 +7,11 @@ function SignIn(props) {
     <div className="signIn">
       <div className="homeIcon">
         <Link to="/">
+          <div className="arrowIcon">
+            <i id="arrow" class="fas fa-arrow-left"></i>
+          </div>
+        </Link>
+        <Link to="/">
           <img
             className="iconImg"
             src="./Images/globoicon.jpg"
