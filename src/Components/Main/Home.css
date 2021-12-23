@@ -157,6 +157,12 @@ li {
   background-color: rgb(70, 8, 70);
   font-size: 15px;
 }
+li:hover {
+  color: white;
+}
+#redes:hover {
+  color: white;
+}
 /* -----------------RESOLUTION CHANGE------------------- */
 @media screen and (max-width: 1100px) {
   .header {

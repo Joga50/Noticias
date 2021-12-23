@@ -12,6 +12,12 @@ import Portugal from "./Components/Countries/Portugal";
 import Mexico from "./Components/Countries/Mexico";
 import France from "./Components/Countries/France";
 import Colombia from "./Components/Countries/Colombia";
+// -------------------------------About Us-------------------------------
+import AboutUs from "./Components/AboutUs/AboutUs";
+import ContactUs from "./Components/AboutUs/ContactUs";
+import FAQ from "./Components/AboutUs/FAQ";
+import PrivacyPolicy from "./Components/AboutUs/PrivacyPolicy";
+
 // ------------------ErrorPage-------------------------
 import Error from "./Components/Main/ErrorPage";
 
@@ -43,6 +49,12 @@ function App() {
           path="/Colombia"
           element={<Colombia data={data} setData={setData} />}
         />
+        {/* --------------------------------About Us------------------------------- */}
+        <Route path="/aboutUs" element={<AboutUs />} />
+        <Route path="/contactUs" element={<ContactUs />} />
+        <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/privacyPolicy" element={<PrivacyPolicy />} />
+
         {/* // ------------------ErrorPage------------------------- */}
         <Route path="*" element={<Error />} />
       </Routes>

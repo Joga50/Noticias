@@ -1,0 +1,40 @@
+/* ---------------------------sign in---------------------------- */
+.signIn {
+  background-color: rgb(144, 9, 223);
+
+  margin-right: 17%;
+  margin-left: 17%;
+  padding-bottom: 13%;
+  padding-top: 10%;
+}
+.aboutUsP {
+  margin: 15%;
+  padding: 10%;
+  background-color: white;
+  padding-top: 1%;
+  display: grid;
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  margin-bottom: 140px;
+}
+h6 {
+  margin-left: 10%;
+  font-size: 13px;
+  margin-bottom: 8px;
+  margin-top: 12px;
+}
+#input {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 25px;
+}
+
+.loginDiv {
+  background-color: rgb(144, 9, 223);
+  padding-bottom: 5%;
+  text-align: right;
+}
+.paragraph {
+  text-align: justify;
+}

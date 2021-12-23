@@ -170,34 +170,46 @@ function Home(props) {
         <div className="footerDiv2">
           <h2>This might interest you</h2>
           <ul>
-            <li>About us</li>
-            <li>Privacy policy</li>
-            <li>FAQ</li>
-            <li>Contact us</li>
+            <Link to="/aboutUs">
+              <li>About us</li>
+            </Link>
+            <Link to="/privacyPolicy">
+              <li>Privacy policy</li>
+            </Link>
+            <Link to="/FAQ">
+              <li>FAQ</li>
+            </Link>
+            <Link to="/contactUs">
+              <li>Contact us</li>
+            </Link>
           </ul>
         </div>
         <div className="footerDiv3">
           <h2>Follow us</h2>
           <a href="https://www.twitter.com">
             <img
+              id="redes"
               src="https://img.icons8.com/color/48/000000/twitter--v1.png"
               alt="twitter"
             ></img>
           </a>
           <a href="https://facebook.com">
             <img
+              id="redes"
               src="https://img.icons8.com/fluency/48/000000/facebook.png"
               alt="facebook"
             />
           </a>
           <a href="https://instagram.com">
             <img
+              id="redes"
               src="https://img.icons8.com/fluency/48/000000/instagram-new.png"
               alt="instagram"
             />
           </a>
           <a href="https://linkedin.com">
             <img
+              id="redes"
               src="https://img.icons8.com/color/48/000000/linkedin.png"
               alt="linkedin"
             />
