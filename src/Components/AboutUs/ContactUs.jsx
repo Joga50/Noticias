@@ -21,14 +21,13 @@ function ContactUs(props) {
       </div>
       <h2>Sign in</h2>
       <div className="signInBox">
-        <h6>E-mail</h6>
-        <input placeholder="username" id="input" type="email" />
-        <h6>Password</h6>
-        <input placeholder="password" id="input" type="password" />
-
-        <div className="loginDiv">
-          <button>Login</button>
-        </div>
+        <p className="paragraph">
+          Hello you can know more about us in the page, as we mentioned
+          previously in the home page we are a website that carries a lot of
+          news and articles for a lot of countries, we are a descentralized
+          newspaper, with headquerters areound the cloud, so down and enojy
+          reading all of our information.
+        </p>
       </div>
     </div>
   );
