@@ -21,14 +21,9 @@ function FAQ(props) {
       </div>
       <h2>Sign in</h2>
       <div className="signInBox">
-        <h6>E-mail</h6>
-        <input placeholder="username" id="input" type="email" />
-        <h6>Password</h6>
-        <input placeholder="password" id="input" type="password" />
-
-        <div className="loginDiv">
-          <button>Login</button>
-        </div>
+        <p>
+          We have all the terms on conditions up to day, we are totally legal
+        </p>
       </div>
     </div>
   );

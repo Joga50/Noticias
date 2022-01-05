@@ -21,14 +21,10 @@ function PrivacyPolicy(props) {
       </div>
       <h2>Sign in</h2>
       <div className="signInBox">
-        <h6>E-mail</h6>
-        <input placeholder="username" id="input" type="email" />
-        <h6>Password</h6>
-        <input placeholder="password" id="input" type="password" />
-
-        <div className="loginDiv">
-          <button>Login</button>
-        </div>
+        <p>
+          This company will never use your personal information o any related
+          data.
+        </p>
       </div>
     </div>
   );

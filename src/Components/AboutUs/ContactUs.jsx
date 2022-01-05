@@ -21,13 +21,9 @@ function ContactUs(props) {
       </div>
       <h2>Sign in</h2>
       <div className="signInBox">
-        <p className="paragraph">
-          Hello you can know more about us in the page, as we mentioned
-          previously in the home page we are a website that carries a lot of
-          news and articles for a lot of countries, we are a descentralized
-          newspaper, with headquerters areound the cloud, so down and enojy
-          reading all of our information.
-        </p>
+        <p className="paragraph">Please contact Us to:</p>
+        <p>-globonews@gmail.com</p>
+        <p>-tel: 111111111</p>
       </div>
     </div>
   );
